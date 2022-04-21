@@ -5,6 +5,14 @@
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/view/DatabaseView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Tile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/BoardView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/BoardView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/ButtonView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/ButtonView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/GameView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/GameView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/ScoreView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/ScoreView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/TileView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/TileView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,22 +117,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="492" y="234" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1280.680@0.0.1280.680" timestamp="1649949823626" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1650574700072">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1650578158035">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1650574700072" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1650574700072">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1650578158035" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1650578158035">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1650574700072" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1650574700071">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1650578158035" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1650578158035">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1650574700071" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1650574700072">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1650578158035" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1650578158035">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1650574700072" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1650578158035" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1650387875043">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -151,7 +159,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/view/GameView.java</url>
-          <line>108</line>
+          <line>110</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

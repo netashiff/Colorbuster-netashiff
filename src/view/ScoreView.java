@@ -1,5 +1,9 @@
 package view;
-
+// File:   scoreview.java
+// Project: colorbuster inteliij
+// Author:  Neta Shiff
+// History: Version 1.1 April 15, 2022
+//
 import model.Score;
 
 import javax.swing.*;

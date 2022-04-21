@@ -1,6 +1,7 @@
-/**
- * 
- */
+// File:  Tile view.java
+// Author:  Neta Shiff
+// History: Version 1.1 April 15, 2022
+
 package view;
 
 import java.awt.Dimension;
@@ -14,7 +15,7 @@ import javax.swing.border.Border;
 import model.Tile;
 
 /**
- * @author Frank J. Mitropoulos
+ * @author cobination neta shiff Frank J. Mitropoulos
  * 
  * Simple View class that is a JButton and is a view of a Tile
  *

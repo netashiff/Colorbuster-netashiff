@@ -1,12 +1,8 @@
 import controller.GameController;
 
-/**
- * 
- */
 
 /**
- * @author Frank J. Mitropoulos
- *
+ * @neta shiff
  */
 public class Main {
 

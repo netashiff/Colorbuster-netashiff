@@ -10,7 +10,7 @@ import javax.swing.JComboBox;
 import java.awt.event.*;
 
 /**
- * @author Frank J. Mitropoulos
+ * @author Neta shiff&profesor
  *
  */
 public class ButtonView extends JPanel {

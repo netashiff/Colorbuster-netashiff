@@ -1,6 +1,8 @@
-/**
- * 
- */
+// File:   Gameview.java
+// Project: colorbuster
+// Author:  Neta Shiff
+// History: Version 1.1 April 15, 2022
+
 package view;
 import javax.swing.*;
 import java.awt.*;
@@ -129,7 +131,6 @@ public class GameView extends JFrame {
 	// Delegate to boardView
 	public boolean isMoveAvailable() {
 		return boardView.isMoveAvailable();
-		// TODO you need to delegate this behavior to the boardView
 	}
 	
 	// Call this method to start a new Game
@@ -165,7 +166,6 @@ public class GameView extends JFrame {
 		newGame(score);
 	}
 	public HashSet<Tile> processTouchedTile(TileView tv) {
-		// TODO
 		HashSet<Tile> match =  boardView.processTouchedTile(tv);
 
 		// You need to implement this method. It is called when a tileview is touched

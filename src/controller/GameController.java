@@ -18,7 +18,7 @@ import view.TileView;
 import static view.ScoreView.scoreLabel;
 
 /**
- * @author Frank J. Mitropoulos
+ * @author neta shiff &Frank J. Mitropoulos
  *
  */
 public class GameController {

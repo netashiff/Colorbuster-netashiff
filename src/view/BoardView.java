@@ -14,9 +14,10 @@ import model.Tile;
 import view.TileView;
 
 /**
- * @author Frank J. Mitropoulos
+ * @author Frank J. Mitropoulos, neta shiff
  * 
- * View class over the board model.
+ * View class over the board model.-
+ * I added more parts
  *
  *
  */

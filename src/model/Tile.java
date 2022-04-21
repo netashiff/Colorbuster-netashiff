@@ -1,6 +1,7 @@
-/**
- * 
- */
+// File:   tile.java
+// Project: Coloruster
+// Author:  Neta Shiff
+// History: Version 1.1 April 15, 2022
 package model;
 
 import java.awt.Image;
