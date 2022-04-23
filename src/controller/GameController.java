@@ -5,6 +5,7 @@ package controller;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.sql.SQLException;
 import java.util.HashSet;
 
 import javax.swing.JOptionPane;
@@ -14,6 +15,7 @@ import model.Tile;
 import view.GameView;
 import view.ScoreView;
 import view.TileView;
+import view.DatabaseView;
 
 import static view.ScoreView.scoreLabel;
 
@@ -30,6 +32,7 @@ public class GameController {
 	private GameView gameView;
 	private ScoreView scoreview;
 	private Score scoreobject;
+	private DatabaseView db;
 	
 	
 
@@ -41,7 +44,6 @@ public class GameController {
 		scoreobject= new Score();
 		java.awt.EventQueue.invokeLater(new Runnable() {
 			public void run() {
-			
 				gameView = new GameView("Title",scoreobject,null,new NewGameListener(),
 						new TileTouchedListener(), new LevelsListener());
 				gameView.setVisible(true);	
@@ -79,6 +81,12 @@ public class GameController {
 			if (!gameView.isMoveAvailable()) {
 				JOptionPane.showMessageDialog(gameView,
 					    "No more moves... starting new game");
+				// using the database view to call the database to create a list of top 10
+//				try {
+//					db.endgame(scoreobject.getCurrent());
+//				} catch (SQLException e) {
+//					e.printStackTrace();
+//				}
 				gameView.newGame(scoreobject);
 			}
 		}
@@ -91,9 +99,6 @@ public class GameController {
 		@Override 
 		public void actionPerformed(ActionEvent event) {
 			System.out.println("Starting new game...");
-			System.out.println("Not yet implemented..");
-			// TODO
-			// You implement this method. Delegate to GameView!
 			gameView.newGame(scoreobject);
 		}
 		
