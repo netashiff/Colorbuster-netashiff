@@ -62,8 +62,6 @@ public class GameController {
 		public void actionPerformed(ActionEvent event) {
 			TileView tv = (TileView) event.getSource();
 			System.out.println("Tile touched..." + tv.toString());
-			// TODO -- you implement this
-			// delegate to GameView!
 			HashSet<Tile> matches = gameView.processTouchedTile(tv);
 			if (matches.size() >= gameView.getminmatch()) {
 				scoreobject.updatescore(true,matches.size());

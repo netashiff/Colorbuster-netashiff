@@ -19,8 +19,6 @@ public class DatabaseView {
         myPanel.add(new JLabel("Name:"));
         myPanel.add(namefield);
         myPanel.add(Box.createHorizontalStrut(15)); // a spacer
-      ;
-
         int result = JOptionPane.showConfirmDialog(null, myPanel,
                 "Please Enter your name", JOptionPane.OK_CANCEL_OPTION);
         if (result == JOptionPane.OK_OPTION) {
